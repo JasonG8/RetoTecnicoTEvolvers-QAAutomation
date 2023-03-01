@@ -12,7 +12,7 @@ Este repositorio contiene dos (2) carpetas donde cada una pertenece a un proyect
 ## Pre-requisitos 📋
 - Java version 1.8 update 241 o superior y JDK (variables de entorno configuradas)
 - IntelliJ IDEA  o Eclipse IDE  
-- Maven version 4.0 o superior (variables de entorno configuradas)
+- Maven version 3.8 o superior (variables de entorno configuradas)
 - Cucumber
 
 ## Instalación 🛠️🔩
