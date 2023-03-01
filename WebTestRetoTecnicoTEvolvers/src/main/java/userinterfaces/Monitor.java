@@ -2,7 +2,7 @@ package userinterfaces;
 
 import net.serenitybdd.screenplay.targets.Target;
 
-public class monitor {
+public class Monitor {
     public static final Target ADDMONITOR = Target.the("monitor").
             locatedBy("//a[normalize-space()='Add to cart']");
     public static final Target BACKHOME = Target.the("Back Home").

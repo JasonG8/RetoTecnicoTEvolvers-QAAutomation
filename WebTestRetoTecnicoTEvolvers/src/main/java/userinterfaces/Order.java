@@ -2,7 +2,7 @@ package userinterfaces;
 
 import net.serenitybdd.screenplay.targets.Target;
 
-public class order {
+public class Order {
 
     public static final Target PLACE_ORDER_BTN = Target.the("Place Order").
             locatedBy("//button[normalize-space()='Place Order']");

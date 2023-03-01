@@ -1,12 +1,8 @@
 package userinterfaces;
 
-import net.serenitybdd.screenplay.actions.Switch;
 import net.serenitybdd.screenplay.targets.Target;
-import org.openqa.selenium.WebDriver;
 
-import utils.drivers.MyChromeDriver;
-
-public class phone {
+public class Phone {
 
     public static final Target ADDPHONE = Target.the("phone").
             locatedBy("//a[normalize-space()='Add to cart']");

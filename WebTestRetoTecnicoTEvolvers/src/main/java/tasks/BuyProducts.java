@@ -4,7 +4,8 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Switch;
+import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
+import net.serenitybdd.screenplay.waits.WaitUntil;
 import userinterfaces.*;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
@@ -16,33 +17,34 @@ public class BuyProducts implements Task  {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
+                WaitUntil.the(Home.PHONE, WebElementStateMatchers.isVisible()),
                 Click.on(Home.PHONE),
-                Click.on(phone.ADDPHONE)
+                Click.on(Phone.ADDPHONE)
         );
 
         BrowseTheWeb.as(actor).getDriver().switchTo().alert().accept();
 
         actor.attemptsTo(
-                Click.on(phone.BACKHOME),
+                Click.on(Phone.BACKHOME),
                 Click.on(Home.NEXTPAGEBTN),
                 Click.on(Home.LAPTOP),
-                Click.on(laptop.ADDLAPTOP)
+                Click.on(Laptop.ADDLAPTOP)
         );
 
         BrowseTheWeb.as(actor).getDriver().switchTo().alert().accept();
 
         actor.attemptsTo(
-                Click.on(laptop.BACKHOME),
+                Click.on(Laptop.BACKHOME),
                 Click.on(Home.NEXTPAGEBTN),
                 Click.on(Home.MONITOR),
-                Click.on(monitor.ADDMONITOR)
+                Click.on(Monitor.ADDMONITOR)
         );
 
         BrowseTheWeb.as(actor).getDriver().switchTo().alert().accept();
 
         actor.attemptsTo(
-                Click.on(monitor.BACKHOME),
-                Click.on(cart.CART)
+                Click.on(Monitor.BACKHOME),
+                Click.on(Cart.CART)
         );
 
     }

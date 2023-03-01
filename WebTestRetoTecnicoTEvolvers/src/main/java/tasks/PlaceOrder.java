@@ -3,7 +3,8 @@ package tasks;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.*;
-import userinterfaces.order;
+import userinterfaces.Order;
+import static utils.constantes.ConstantManage.*;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
@@ -14,14 +15,14 @@ public class PlaceOrder implements Task  {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
-                Click.on(order.PLACE_ORDER_BTN),
-                SendKeys.of("Jason").into(order.NAME),
-                SendKeys.of("Colombia").into(order.COUNTRY),
-                SendKeys.of("Medellin").into(order.CITY),
-                SendKeys.of("10098723").into(order.CARD),
-                SendKeys.of("FEBRERO").into(order.MONTH),
-                SendKeys.of("2023").into(order.YEAR),
-                Click.on(order.PURCHASE_BTN)
+                Click.on(Order.PLACE_ORDER_BTN),
+                SendKeys.of(NAME).into(Order.NAME),
+                SendKeys.of(COUNTRY).into(Order.COUNTRY),
+                SendKeys.of(CITY).into(Order.CITY),
+                SendKeys.of(CARD).into(Order.CARD),
+                SendKeys.of(MONTH).into(Order.MONTH),
+                SendKeys.of(YEAR).into(Order.YEAR),
+                Click.on(Order.PURCHASE_BTN)
         );
 
     }
