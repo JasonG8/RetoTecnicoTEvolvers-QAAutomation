@@ -12,16 +12,16 @@ public class CompareValues implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-        int value1, value2,value3,value5;
-        value1 = Prices.priceProductPhone().answeredBy(theActorInTheSpotlight());
-        value2 = Prices.priceProductMonitor().answeredBy(theActorInTheSpotlight());
-        value3 = Prices.priceProductLaptop().answeredBy(theActorInTheSpotlight());
-        value5 = value1 + value2 + value3;
+        int ProductPhonePrice, ProductMonitorPrice,ProductLaptopPrice,TotalValueProducts;
+        ProductPhonePrice = Prices.priceProductPhone().answeredBy(theActorInTheSpotlight());
+        ProductMonitorPrice = Prices.priceProductMonitor().answeredBy(theActorInTheSpotlight());
+        ProductLaptopPrice = Prices.priceProductLaptop().answeredBy(theActorInTheSpotlight());
+        TotalValueProducts = ProductPhonePrice + ProductMonitorPrice + ProductLaptopPrice;
         System.out.println("********" + "\n"
-                + "El valor del producto 1 es: " + value1 + "\n"
-                + "El valor del producto 2 es: " + value2 + "\n"
-                + "El valor del producto 3 es: " + value3 + "\n"
-                + "El valor Total esperado de la compra es de: " + value5 + "\n" + "*******"
+                + "El valor del producto 1 es: " + ProductPhonePrice + "\n"
+                + "El valor del producto 2 es: " + ProductMonitorPrice + "\n"
+                + "El valor del producto 3 es: " + ProductLaptopPrice + "\n"
+                + "El valor Total esperado de la compra es de: " + TotalValueProducts + "\n" + "*******"
         );
         System.out.println(
                 "El Valor Total de la compra es :"
