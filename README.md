@@ -7,7 +7,7 @@ Este proyecto contiene dos (2) carpetas donde cada una pertenece a una prueba di
 
 NOTA: Para ejecutar las pruebas debemos tener previamente instalado el JDK de Java y un IDE de preferencia.
 
-####ApiTestRetoTecnicoTEvolvers
+#### ApiTestRetoTecnicoTEvolvers
 
 Esta prueba fue realizada con Karate Framenwork para la automatizacion de pruebas API. Basado en el lenguaje de comportamiento Gherkin, el cual simplifica la creacion de los casos de prueba para los diferentes EndPoints a probar, en este caso realizamos la prueba para los EndPoints: CreateBooking, GetBooking, UpdateBooking. Los cuales estan definidos en un archivo.feature por aparte con su respectivo escenario.
 
@@ -41,4 +41,4 @@ Ejemplo: C:\Users\UserExample\Desktop\RetoTEvolversQAAutomation\WebTestRetoTecni
 KarateFramenWork - https://www.karatelabs.io/
 SerenityBDD - https://serenity-bdd.github.io/ 
 
-##End
+## End
