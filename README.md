@@ -36,10 +36,3 @@ Para verificar su ejecucion basta con  realizar los siguientes pasos:
 3. Ejecutar el archivo BuyProductsRunner.java en la ruta:
 
   - WebTestRetoTecnicoTEvolvers/src/test/java/runners/BuyProductsRunner.java
-
-### References
-
-KarateFramenWork - https://www.karatelabs.io/
-SerenityBDD - https://serenity-bdd.github.io/ 
-
-## End
