@@ -24,7 +24,7 @@ Ejemplo: C:\Users\UserExample\Desktop\RetoTEvolversQAAutomation\ApiTestRetoTecni
 
 #### WebTestRetoTecnicoTEvolvers
 
-Para esta prueba utilice Serenity BDD Framenwork para la automatizacion de pruebas Web,implementando lenguaje Gherkin y haciendo uso de el patron de diseño ScreenPlay que se centra en las acciones que un usuario realiza en una aplicación y en cómo interactúa con los diferentes elementos de la interfaz de usuario, en este caso la compra de productos de un E-commerce llamado DemoBlaze.
+Para esta prueba utilice Serenity BDD Framenwork para la automatizacion de pruebas Web, implementando lenguaje Gherkin y haciendo uso de el patron de diseño ScreenPlay que se centra en las acciones que un usuario realiza en una aplicación y en cómo interactúa con los diferentes elementos de la interfaz de usuario, en este caso la compra de productos de un E-commerce llamado DemoBlaze.
 
 Para verificar su ejecucion basta con  realizar los siguientes pasos:
 
