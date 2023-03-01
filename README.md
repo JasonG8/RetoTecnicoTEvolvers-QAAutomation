@@ -22,7 +22,7 @@ Ejemplo: C:\Users\UserExample\Desktop\RetoTEvolversQAAutomation\ApiTestRetoTecni
 		UpdateBooking.feature
 
 
-####WebTestRetoTecnicoTEvolvers
+#### WebTestRetoTecnicoTEvolvers
 
 Para esta prueba utilice Serenity BDD Framenwork para la automatizacion de pruebas Web, haciendo uso de la arquitectura ScreenPlay el patrón de diseño que se centra en las acciones que un usuario realiza en una aplicación y en cómo interactúa con los diferentes elementos de la interfaz de usuario, en este caso la compra de productos de un E-commerce llamado DemoBlaze.
 
@@ -36,7 +36,7 @@ Ejemplo: C:\Users\UserExample\Desktop\RetoTEvolversQAAutomation\WebTestRetoTecni
 
      WebTestRetoTecnicoTEvolvers/src/test/java/runners/BuyProductsRunner.java
 
-##References
+### References
 
 KarateFramenWork - https://www.karatelabs.io/
 SerenityBDD - https://serenity-bdd.github.io/ 
