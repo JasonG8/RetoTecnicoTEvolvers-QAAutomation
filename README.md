@@ -18,9 +18,9 @@ Ejemplo: C:\Users\UserExample\Desktop\RetoTEvolversQAAutomation\ApiTestRetoTecni
 
 3. Ejecutar cualquiera de los archivos.feature:
 
-		- CreateBooking.feature.
-		- GetBooking.feature.
-		- UpdateBooking.feature.
+		- CreateBooking.feature
+		- GetBooking.feature
+		- UpdateBooking.feature
 
 
 #### WebTestRetoTecnicoTEvolvers
