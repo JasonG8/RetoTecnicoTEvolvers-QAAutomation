@@ -16,10 +16,11 @@ Para verificar su ejecucion realizamos los siguientes pasos:
 2.  Desde el IDE IntelliJ (o VS) Abrir el proyecto en la ruta donde lo clonamos:
 Ejemplo: C:\Users\UserExample\Desktop\RetoTEvolversQAAutomation\ApiTestRetoTecnicoTEvolvers
 
-3. Ejecutar cualquiera de los archivos.feature: 
-		CreateBooking,feature
-		GetBooking.feature
-		UpdateBooking.feature
+3. Ejecutar cualquiera de los archivos.feature:
+
+		- CreateBooking.feature.
+		- GetBooking.feature.
+		- UpdateBooking.feature.
 
 
 #### WebTestRetoTecnicoTEvolvers
