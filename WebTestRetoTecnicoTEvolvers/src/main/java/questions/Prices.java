@@ -14,7 +14,7 @@ public class Values {
         return actor -> TextContent.of(cart.PRICE_PRODUCT2).viewedBy(actor).asInteger();
     }
     public static Question<Integer> value3() {
-        return actor -> TextContent.of(cart.PRICE_PRODUCT3).viewedBy(actor).asInteger();
+        return actor -> TextContent.of(cart.PRICE_PRODUCT_PHONE).viewedBy(actor).asInteger();
     }
     public static Question<Integer> value4() {
         return actor -> TextContent.of(cart.PRICE_TOTAL).viewedBy(actor).asInteger();
