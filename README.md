@@ -31,11 +31,11 @@ Para verificar su ejecucion basta con  realizar los siguientes pasos:
 
 1. Clonar el proyecto
 2.  Desde el IDE IntelliJ (o VS) Abrir el proyecto en la ruta donde lo clonamos:
-Ejemplo: C:\Users\UserExample\Desktop\RetoTEvolversQAAutomation\WebTestRetoTecnicoTEvolvers
+ - Ejemplo: C:\Users\UserExample\Desktop\RetoTEvolversQAAutomation\WebTestRetoTecnicoTEvolvers
 
 3. Ejecutar el archivo BuyProductsRunner.java en la ruta:
 
-     WebTestRetoTecnicoTEvolvers/src/test/java/runners/BuyProductsRunner.java
+  - WebTestRetoTecnicoTEvolvers/src/test/java/runners/BuyProductsRunner.java
 
 ### References
 
