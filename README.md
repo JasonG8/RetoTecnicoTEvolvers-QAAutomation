@@ -13,7 +13,7 @@ Esta prueba fue realizada con Karate Framenwork para la automatizacion de prueba
 
 Para verificar su ejecucion realizamos los siguientes pasos:
 1. Clonar el proyecto
-2.  Desde el IDE IntelliJ (o el IDE de su preferencia) Abrir el proyecto en la ruta donde lo clonamos:
+2.  Desde el IDE IntelliJ (o VS) Abrir el proyecto en la ruta donde lo clonamos:
 Ejemplo: C:\Users\UserExample\Desktop\RetoTEvolversQAAutomation\ApiTestRetoTecnicoTEvolvers
 
 3. Ejecutar cualquiera de los archivos.feature: 
@@ -29,7 +29,7 @@ Para esta prueba utilice Serenity BDD Framenwork para la automatizacion de prueb
 Para verificar su ejecucion basta con  realizar los siguientes pasos:
 
 1. Clonar el proyecto
-2.  Desde el IDE IntelliJ (o el IDE de su preferencia) Abrir el proyecto en la ruta donde lo clonamos:
+2.  Desde el IDE IntelliJ (o VS) Abrir el proyecto en la ruta donde lo clonamos:
 Ejemplo: C:\Users\UserExample\Desktop\RetoTEvolversQAAutomation\WebTestRetoTecnicoTEvolvers
 
 3. Ejecutar el archivo BuyProductsRunner.java en la ruta:
