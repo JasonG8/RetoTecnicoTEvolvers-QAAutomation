@@ -1,6 +1,6 @@
 ### Reto T Evolvers
 
-Este proyecto contiene dos (2) carpetas donde cada una pertenece a una prueba distinta:
+Este repositorio contiene dos (2) carpetas donde cada una pertenece a un proyecto distinto:
 1. ApiTestRetoTecnicoTEvolvers (Automatización de prueba de API)
 
 2. WebTestRetoTecnicoTEvolvers (Automatización de prueba Web)
