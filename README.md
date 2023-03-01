@@ -17,7 +17,7 @@ Este repositorio contiene dos (2) carpetas donde cada una pertenece a un proyect
 
 ## Instalación 🛠️🔩
 
-#### **1.ApiTestRetoTecnicoTEvolvers**
+**1. ApiTestRetoTecnicoTEvolvers**
 
 Esta prueba fue realizada con Karate Framenwork para la automatizacion de pruebas API. Basado en el lenguaje de comportamiento Gherkin, el cual simplifica la creacion de los casos de prueba para los diferentes EndPoints a probar, en este caso realizamos la prueba para los EndPoints: CreateBooking, GetBooking, UpdateBooking. Los cuales estan definidos en un archivo.feature por aparte con su respectivo escenario.
 
@@ -33,7 +33,7 @@ Ejemplo: C:\Users\UserExample\Desktop\RetoTEvolversQAAutomation\ApiTestRetoTecni
 		- UpdateBooking.feature
 
 
-#### **2.WebTestRetoTecnicoTEvolvers**
+**2. WebTestRetoTecnicoTEvolvers**
 
 Para esta prueba utilice Serenity BDD Framenwork para la automatizacion de pruebas Web, implementando lenguaje Gherkin y haciendo uso de el patron de diseño ScreenPlay que se centra en las acciones que un usuario realiza en una aplicación y en cómo interactúa con los diferentes elementos de la interfaz de usuario, en este caso la compra de productos de un E-commerce llamado DemoBlaze.
 
