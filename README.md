@@ -1,11 +1,21 @@
-### Reto T Evolvers
+
+# **RETO TECNICO T-EVOLVERS PARA QA AUTOMATION**
+
+## Introducción 📖
 
 Este repositorio contiene dos (2) carpetas donde cada una pertenece a un proyecto distinto:
+
 1. ApiTestRetoTecnicoTEvolvers (Automatización de prueba de API)
 
 2. WebTestRetoTecnicoTEvolvers (Automatización de prueba Web)
 
-NOTA: Para ejecutar las pruebas debemos tener previamente instalado el JDK de Java y un IDE de preferencia.
+## Pre-requisitos 📋
+- Java version 1.8 update 241 o superior y JDK (variables de entorno configuradas)
+- IntelliJ IDEA  o Eclipse IDE  
+- Maven version 6.0 o superior (variables de entorno configuradas)
+- Cucumber
+
+## Instalación 🛠️🔩
 
 #### ApiTestRetoTecnicoTEvolvers
 
@@ -36,3 +46,6 @@ Para verificar su ejecucion basta con  realizar los siguientes pasos:
 3. Ejecutar el archivo BuyProductsRunner.java en la ruta:
 
   - WebTestRetoTecnicoTEvolvers/src/test/java/runners/BuyProductsRunner.java
+  
+## Autor ✒️👨🏻‍
+ **©️ Jason David Guzman Gomez** - *Creación de proyecto.* - [jeison.0828@gmail.com]
