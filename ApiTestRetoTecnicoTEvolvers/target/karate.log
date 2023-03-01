@@ -1,0 +1,2617 @@
+16:48:57.696 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677448137692
+16:48:57.757 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2 - ^plan de pruebas$
+16:49:00.873 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:49:01.965 [main] DEBUG com.intuit.karate - response time in milliseconds: 1086
+1 < 200
+1 < Date: Sun, 26 Feb 2023 21:49:05 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 2467
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mFxwSObxfH%2B9iEV%2B0811j1vH%2F8mrW9XsKoPLi8ZLi%2BLLGJ%2FI8ZSw43lxFiMXjC%2B86CN10fh6PcVRbiV20VcxZJH2kwUA0ZeMvf08DJ%2BPhxaGxFCkZAWWEO5q4g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79fbe37d8fe5b3dd-MIA
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+16:49:03.502 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/karateTest.feature
+16:50:05.498 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677448205494
+16:50:05.558 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2 - ^plan de pruebas$
+16:50:08.361 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:50:09.149 [main] DEBUG com.intuit.karate - response time in milliseconds: 780
+1 < 200
+1 < Date: Sun, 26 Feb 2023 21:50:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 184
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FeS0%2BXWpY16ws%2BRoUPmNm2GJKJQt1U%2Bj1t5o9WuAkxBQT4P5vWYEFksCGAbrIAuaC6aP2m6yZr21SxK3%2BG4euPt2zaFWmzclSqyx6%2FWxdacJ6y4mca8Yfnpfpg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79fbe521aaa4db01-MIA
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+16:50:10.484 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/karateTest.feature
+16:54:33.086 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677448473083
+16:54:33.139 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2 - ^plan de pruebas$
+16:54:35.809 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:54:36.712 [main] DEBUG com.intuit.karate - response time in milliseconds: 899
+1 < 200
+1 < Date: Sun, 26 Feb 2023 21:54:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 452
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VmTjYRVinuwqnS%2BORC5D77%2F%2FtCmfKhphF3D7aWiiNAxTnqny2fMb7iAAaGHK6waBJBNRvDGZW%2FZffVFd1io12z%2FH1i1fuhLeuYmM2wVFDQvxNL2xmfdQ3Cdotg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79fbeba9db3731ec-MIA
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+16:54:37.577 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/karateTest.feature
+17:32:36.489 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677450756486
+17:32:36.537 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5 - ^Obtener token de acceso$
+17:32:39.212 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+17:32:40.296 [main] DEBUG com.intuit.karate - response time in milliseconds: 1075
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 27
+1 < Etag: W/"1b-+uDb+BlnVMU3OccvJ9/BJ7sc+PA"
+1 < Date: Sun, 26 Feb 2023 22:32:40 GMT
+1 < Via: 1.1 vegur
+{"token":"fbe6e08ec2ba433"}
+
+17:32:41.402 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/token.feature
+17:56:31.164 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677452191161
+17:56:31.211 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+17:56:33.588 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Guzman","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2023-02-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+17:56:34.836 [main] DEBUG com.intuit.karate - response time in milliseconds: 1242
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Sun, 26 Feb 2023 22:56:34 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+17:56:34.842 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:22
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1242, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:22
+17:56:35.657 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+17:58:32.322 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677452312316
+17:58:32.363 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+17:58:34.749 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > 'Accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Guzman","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2023-02-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+17:58:35.886 [main] DEBUG com.intuit.karate - response time in milliseconds: 1128
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Sun, 26 Feb 2023 22:58:35 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+17:58:35.896 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:23
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1128, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:23
+17:58:36.731 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+18:03:24.847 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677452604844
+18:03:24.898 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+18:03:26.157 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:5
+* header 'Content-Type' = 'application/json' , 'Accept' = 'application/json'
+js failed:
+>>>>
+01: 'application/json' , 'Accept' = 'application/json'
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:21 Invalid left hand side for assignment
+'application/json' , 'Accept' = 'application/json'
+                     ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2143)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2062)
+- com.intuit.karate.core.ScenarioEngine.header(ScenarioEngine.java:407)
+
+src/test/java/restfulBookerApi/karateTest.feature:5
+18:03:27.370 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+18:04:34.815 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677452674812
+18:04:34.864 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+18:04:37.190 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Guzman","totalprice":121,"depositpaid":true,"bookingdates":{"checkin":"2023-02-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+18:04:38.416 [main] DEBUG com.intuit.karate - response time in milliseconds: 1218
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Sun, 26 Feb 2023 23:04:38 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+18:04:38.428 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:21
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1218, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:21
+18:04:39.336 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+18:17:45.792 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677453465790
+18:17:45.831 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+18:17:48.122 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > 'Accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Guzman","totalprice":121,"depositpaid":true,"bookingdates":{"checkin":"2023-02-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+18:17:49.900 [main] DEBUG com.intuit.karate - response time in milliseconds: 1772
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Sun, 26 Feb 2023 23:17:49 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+18:17:49.908 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:22
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1772, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:22
+18:17:51.372 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+18:25:31.072 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677453931068
+18:25:31.137 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+18:25:34.838 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > 'Accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Guzman","totalprice":121,"depositpaid":true,"bookingdates":{"checkin":"2023-02-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+18:25:36.748 [main] DEBUG com.intuit.karate - response time in milliseconds: 1903
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Sun, 26 Feb 2023 23:25:36 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+18:25:36.761 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:22
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1903, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:22
+18:25:38.357 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+18:27:44.254 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677454064251
+18:27:44.306 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+18:27:46.362 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:5
+When headers 'Content-Type' = 'application/json' 'Accept' = 'application/json'
+js failed:
+>>>>
+01: 'Content-Type' = 'application/json' 'Accept' = 'application/json'
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:0 Invalid left hand side for assignment
+'Content-Type' = 'application/json' 'Accept' = 'application/json'
+^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2143)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2062)
+- com.intuit.karate.core.ScenarioEngine.evalAsMap(ScenarioEngine.java:348)
+
+src/test/java/restfulBookerApi/karateTest.feature:5
+18:27:48.032 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:02:25.795 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677510145792
+10:02:25.854 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+10:02:29.651 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > 'Accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Guzman","totalprice":121,"depositpaid":true,"bookingdates":{"checkin":"2023-02-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+10:02:30.991 [main] DEBUG com.intuit.karate - response time in milliseconds: 1333
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:02:31 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:02:31.004 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:22
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1333, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:22
+10:02:32.454 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:03:36.785 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677510216782
+10:03:36.848 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+10:03:40.276 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > 'Accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Guzman","totalprice":121,"depositpaid":true,"bookingdates":{"checkin":"2023-02-27","checkout":"2023-03-05"},"additionalneeds":"Breaakfast"}
+
+10:03:41.923 [main] DEBUG com.intuit.karate - response time in milliseconds: 1638
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:03:42 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:03:41.944 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:22
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1638, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:22
+10:03:43.231 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:12:13.415 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677510733411
+10:12:13.469 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+10:12:16.862 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > 'Accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Guzman","totalprice":121,"depositpaid":true,"bookingdates":{"checkin":"2023-02-27","checkout":"2023-03-05"},"additionalneeds":"Breaakfast"}
+
+10:12:18.502 [main] DEBUG com.intuit.karate - response time in milliseconds: 1628
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:12:19 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:12:18.516 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:22
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1628, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:22
+10:12:19.857 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:14:40.343 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677510880340
+10:14:40.386 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 33 - ^Get Booking$
+10:14:43.265 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > 'Accept': application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:14:45.110 [main] DEBUG com.intuit.karate - response time in milliseconds: 1841
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:14:45 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:14:45.155 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:29
+And match response..firstname == 'Jason'
+js failed:
+>>>>
+01: response..firstname
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:9 Expected ident but found .
+response..firstname
+         ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2143)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2062)
+- com.intuit.karate.core.ScenarioEngine.match(ScenarioEngine.java:1725)
+
+src/test/java/restfulBookerApi/karateTest.feature:29
+10:14:46.585 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:16:39.509 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677510999504
+10:16:39.557 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 33 - ^Get Booking$
+10:16:42.742 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > 'Accept': application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:16:45.445 [main] DEBUG com.intuit.karate - response time in milliseconds: 2697
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:16:45 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:16:45.513 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:29
+And match response..firstname == 'bb'
+js failed:
+>>>>
+01: response..firstname
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:9 Expected ident but found .
+response..firstname
+         ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2143)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2062)
+- com.intuit.karate.core.ScenarioEngine.match(ScenarioEngine.java:1725)
+
+src/test/java/restfulBookerApi/karateTest.feature:29
+10:16:46.404 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:17:46.636 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677511066632
+10:17:46.690 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 32 - ^Get Booking$
+10:17:49.640 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > 'Accept': application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:17:51.552 [main] DEBUG com.intuit.karate - response time in milliseconds: 1900
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:17:52 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:17:51.557 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:29
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1900, url: https://restful-booker.herokuapp.com/booking/1, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:29
+10:17:53.326 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:31:14.244 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677511874241
+10:31:14.345 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+10:31:16.863 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:7
+When request createBooking
+js failed:
+>>>>
+01: createBooking
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "createBooking" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:7
+10:31:18.704 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:33:30.558 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677512010554
+10:33:30.622 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+10:33:32.956 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:7
+When def body = read ('createBooking.json')
+js failed:
+>>>>
+01: read ('createBooking.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\david\Desktop\RetoTecnicoApiTestTEvolvers\src\test\java\restfulBookerApi\createBooking.json (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:7
+10:33:34.852 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:33:43.529 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677512023525
+10:33:43.586 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+10:33:45.463 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:7
+When def body = read ('createBooking.json')
+js failed:
+>>>>
+01: read ('createBooking.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\david\Desktop\RetoTecnicoApiTestTEvolvers\src\test\java\restfulBookerApi\createBooking.json (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:7
+10:33:47.027 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:34:36.127 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677512076125
+10:34:36.180 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+10:34:39.368 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > 'Accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Guzman","totalprice":121,"depositpaid":true,"bookingdates":{"checkin":"2023-02-27","checkout":"2023-03-05"},"additionalneeds":"Breaakfast"}
+
+10:34:41.907 [main] DEBUG com.intuit.karate - response time in milliseconds: 2530
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:34:42 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:34:41.909 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:10
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 2530, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:10
+10:34:43.217 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:41:11.890 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677512471883
+10:41:11.956 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+10:41:15.942 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'content-Type': application/json
+1 > 'accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"David","lastname":"Guzman","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+10:41:18.422 [main] DEBUG com.intuit.karate - response time in milliseconds: 2469
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:41:19 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:41:18.429 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:10
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 2469, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:10
+10:41:19.990 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:42:23.251 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677512543246
+10:42:23.317 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+10:42:26.790 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'content-Type': application/json
+1 > 'accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jeison","lastname":"Guzman","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-03-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+10:42:28.566 [main] DEBUG com.intuit.karate - response time in milliseconds: 1761
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:42:29 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:42:28.572 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:10
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1761, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:10
+10:42:29.970 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:44:04.418 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677512644414
+10:44:04.464 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20 - ^Get Booking$
+10:44:10.424 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > 'Accept': application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:44:12.808 [main] DEBUG com.intuit.karate - response time in milliseconds: 2371
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:44:13 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:44:12.816 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:17
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 2371, url: https://restful-booker.herokuapp.com/booking/1, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:17
+10:44:15.397 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:44:36.346 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677512676342
+10:44:36.417 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20 - ^Get Booking$
+10:44:41.418 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/9066
+1 > 'Accept': application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:44:43.382 [main] DEBUG com.intuit.karate - response time in milliseconds: 1959
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 9
+1 < Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+1 < Date: Mon, 27 Feb 2023 15:44:43 GMT
+1 < Via: 1.1 vegur
+Not Found
+
+10:44:43.385 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:17
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1959, url: https://restful-booker.herokuapp.com/booking/9066, response: 
+Not Found
+src/test/java/restfulBookerApi/karateTest.feature:17
+10:44:45.957 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:46:42.120 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677512802116
+10:46:42.181 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20 - ^Get Booking$
+10:46:46.590 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/6126
+1 > 'Accept': application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:46:47.898 [main] DEBUG com.intuit.karate - response time in milliseconds: 1298
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:46:48 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:46:47.904 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:17
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1298, url: https://restful-booker.herokuapp.com/booking/6126, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:17
+10:46:50.188 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:53:08.109 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677513188102
+10:53:08.162 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+10:53:13.453 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > 'Accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jeison","lastname":"Guzman","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-03-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+10:53:15.232 [main] DEBUG com.intuit.karate - response time in milliseconds: 1767
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:53:16 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:53:15.239 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:10
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1767, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:10
+10:53:17.617 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+10:57:16.454 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677513436450
+10:57:16.518 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+10:57:21.975 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jeison","lastname":"Guzman","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-03-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+10:57:24.582 [main] DEBUG com.intuit.karate - response time in milliseconds: 2598
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 15:57:25 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+10:57:24.591 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:9
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 2598, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:9
+10:57:26.477 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:01:14.237 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677513674232
+11:01:14.287 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+11:01:17.950 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jeson","lastname":"Guzman","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-03-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+11:01:19.569 [main] DEBUG com.intuit.karate - response time in milliseconds: 1602
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 16:01:20 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+11:01:19.582 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:21
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1602, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:21
+11:01:19.591 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 45 - ^Create Booking$
+11:01:19.793 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jeison","lastname":"Guzman","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-03-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+11:01:20.986 [main] DEBUG com.intuit.karate - response time in milliseconds: 1192
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 16:01:21 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+11:01:20.990 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:51
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1192, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:51
+11:01:22.455 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:01:44.085 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677513704082
+11:01:44.135 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+11:01:47.129 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 169
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Json","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+11:01:48.979 [main] DEBUG com.intuit.karate - response time in milliseconds: 1833
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 16:01:50 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+11:01:48.991 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:21
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1833, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:21
+11:01:49.002 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 45 - ^Create Booking$
+11:01:49.253 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jeison","lastname":"Guzman","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-03-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+11:01:50.383 [main] DEBUG com.intuit.karate - response time in milliseconds: 1130
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 16:01:51 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+11:01:50.387 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:51
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1130, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:51
+11:01:51.867 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:05:43.995 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677513943991
+11:05:44.059 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+11:05:48.079 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Json","lastname":"Guzman","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-03-27","checkout":"2023-03-05"},"additionalneeds":"Breakfast"}
+
+11:05:49.444 [main] DEBUG com.intuit.karate - response time in milliseconds: 1355
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 16:05:50 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+11:05:49.450 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:9
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1355, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:9
+11:05:49.460 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 33 - ^Create Booking$
+11:05:49.529 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:36
+When def body = read ('createBooking.json')
+js failed:
+>>>>
+01: read ('createBooking.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\david\Desktop\RetoTecnicoApiTestTEvolvers\src\test\java\restfulBookerApi\createBooking.json (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:36
+11:05:51.149 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:07:08.623 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677514028618
+11:07:08.686 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+11:07:12.052 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jeison","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+11:07:13.268 [main] DEBUG com.intuit.karate - response time in milliseconds: 1211
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 16:07:14 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+11:07:13.272 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:9
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1211, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:9
+11:07:13.277 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 33 - ^Create Booking$
+11:07:13.309 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:36
+When def body = read ('createBooking.json')
+js failed:
+>>>>
+01: read ('createBooking.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\david\Desktop\RetoTecnicoApiTestTEvolvers\src\test\java\restfulBookerApi\createBooking.json (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:36
+11:07:14.747 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:07:34.621 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677514054617
+11:07:34.669 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+11:07:38.365 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jeison","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+11:07:40.414 [main] DEBUG com.intuit.karate - response time in milliseconds: 2032
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 16:07:41 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+11:07:40.421 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:9
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 2032, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:9
+11:07:41.698 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:08:12.557 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677514092554
+11:08:12.590 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+11:08:15.700 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jeison","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+11:08:17.476 [main] DEBUG com.intuit.karate - response time in milliseconds: 1762
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 16:08:18 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+11:08:17.479 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:9
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1762, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:9
+11:08:18.696 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:09:42.319 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677514182314
+11:09:42.364 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+11:09:45.789 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > 'Accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jeison","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+11:09:47.649 [main] DEBUG com.intuit.karate - response time in milliseconds: 1853
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 16:09:48 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+11:09:47.655 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:10
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1853, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:10
+11:09:49.307 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:12:40.385 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677514360381
+11:12:40.430 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+11:12:44.081 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > 'Accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 171
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jeison","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+11:12:45.665 [main] DEBUG com.intuit.karate - response time in milliseconds: 1577
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 16:12:46 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+11:12:45.671 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:10
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1577, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:10
+11:12:46.886 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:15:39.350 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677514539340
+11:15:39.407 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+11:15:41.467 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:7
+When def body = read ('../createBooking.json')
+js failed:
+>>>>
+01: read ('../createBooking.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\david\Desktop\RetoTecnicoApiTestTEvolvers\src\test\java\restfulBookerApi\..\createBooking.json (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:7
+11:15:43.266 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:16:24.963 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677514584959
+11:16:25.009 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+11:16:29.061 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > 'Content-Type': application/json
+1 > 'Accept': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 169
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Json","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+11:16:30.222 [main] DEBUG com.intuit.karate - response time in milliseconds: 1143
+1 < 418
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 12
+1 < Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+1 < Date: Mon, 27 Feb 2023 16:16:31 GMT
+1 < Via: 1.1 vegur
+I'm a Teapot
+
+11:16:30.228 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:10
+Then status 200
+status code was: 418, expected: 200, response time in milliseconds: 1143, url: https://restful-booker.herokuapp.com/booking, response: 
+I'm a Teapot
+src/test/java/restfulBookerApi/karateTest.feature:10
+11:16:31.390 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:18:24.261 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677514704256
+11:18:24.309 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+11:18:26.011 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:5
+And header Content-Type = application/json
+js failed:
+>>>>
+01: application/json
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "application" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:5
+11:18:27.693 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:19:13.564 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677514753561
+11:19:13.617 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+11:19:16.883 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 169
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Json","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+11:19:18.146 [main] DEBUG com.intuit.karate - response time in milliseconds: 1248
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < Etag: W/"c6-yqxaBCfyXtjEQire8kOdtuTcjWM"
+1 < Date: Mon, 27 Feb 2023 16:19:19 GMT
+1 < Via: 1.1 vegur
+{"bookingid":9784,"booking":{"firstname":"Json","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+11:19:19.354 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:20:27.476 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677514827472
+11:20:27.525 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20 - ^Get Booking$
+11:20:31.442 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/6126
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:20:33.389 [main] DEBUG com.intuit.karate - response time in milliseconds: 1934
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 171
+1 < Etag: W/"ab-MG4aCOdqq15ogV4Uqb+rfjZOkQk"
+1 < Date: Mon, 27 Feb 2023 16:20:34 GMT
+1 < Via: 1.1 vegur
+{"firstname":"Josh","lastname":"Allen","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"super bowls"}
+
+11:20:35.166 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:21:59.978 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677514919975
+11:22:00.052 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5 - ^Obtener token de acceso$
+11:22:03.634 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+11:22:05.697 [main] DEBUG com.intuit.karate - response time in milliseconds: 2055
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 27
+1 < Etag: W/"1b-loGSBYS7X8SiVJNEdV98ZKsY5jM"
+1 < Date: Mon, 27 Feb 2023 16:22:06 GMT
+1 < Via: 1.1 vegur
+{"token":"a5bb76529f5e532"}
+
+11:22:06.929 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/token.feature
+11:25:58.371 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677515158362
+11:25:58.424 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5 - ^Obtener token de acceso$
+11:26:02.077 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+11:26:04.325 [main] DEBUG com.intuit.karate - response time in milliseconds: 2240
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 27
+1 < Etag: W/"1b-cj5PT34kODEq1zEeW/SC+Xpj17Y"
+1 < Date: Mon, 27 Feb 2023 16:26:05 GMT
+1 < Via: 1.1 vegur
+{"token":"0d2557b85c010ec"}
+
+11:26:05.680 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/token.feature
+11:47:05.945 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677516425940
+11:47:06.002 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 35 - ^Update Booking$
+11:47:08.370 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:26
+* def token1 = Token.response.token
+js failed:
+>>>>
+01: Token.response.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:26
+11:47:10.243 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:48:11.075 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677516491069
+11:48:11.136 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 35 - ^Update Booking$
+11:48:13.045 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:26
+* def token1 = Token.response.token
+js failed:
+>>>>
+01: Token.response.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:26
+11:48:14.607 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:49:29.169 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677516569165
+11:49:29.226 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 35 - ^Update Booking$
+11:49:31.235 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:25
+* def token1 = Token.response.token
+js failed:
+>>>>
+01: Token.response.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:25
+11:49:32.870 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:56:32.708 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677516992705
+11:56:32.758 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 35 - ^Update Booking$
+11:56:34.452 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:25
+* def token1 = Token.response.token
+js failed:
+>>>>
+01: Token.response.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:25
+11:56:36.119 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+11:58:54.135 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677517134132
+11:58:54.185 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 35 - ^Update Booking$
+11:58:55.733 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:25
+* def token1 = Token.response.token
+js failed:
+>>>>
+01: Token.response.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:25
+11:58:56.998 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+12:00:00.329 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677517200325
+12:00:00.397 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5 - ^Obtener token de acceso$
+12:00:03.029 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+12:00:04.053 [main] DEBUG com.intuit.karate - response time in milliseconds: 1014
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 27
+1 < Etag: W/"1b-Oxer6c4esBoK6vpVaTDHwyXrKWc"
+1 < Date: Mon, 27 Feb 2023 17:00:05 GMT
+1 < Via: 1.1 vegur
+{"token":"0ab2939046c86b5"}
+
+12:00:04.930 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/token.feature
+12:00:49.111 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677517249107
+12:00:49.172 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 35 - ^Update Booking$
+12:00:50.596 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:25
+* def token1 = Token.response.token
+js failed:
+>>>>
+01: Token.response.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:25
+12:00:52.126 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+12:01:21.948 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677517281943
+12:01:21.991 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 35 - ^Update Booking$
+12:01:23.492 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:25
+* def token1 = Token.response.token
+js failed:
+>>>>
+01: Token.response.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:25
+12:01:24.789 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+12:15:22.982 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677518122979
+12:15:23.030 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 34 - ^Update Booking$
+12:15:24.615 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:27
+And header Cookie = 'token=' + token
+js failed:
+>>>>
+01: 'token=' + token
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:27
+12:15:25.993 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+12:16:02.006 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677518162002
+12:16:02.064 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 34 - ^Update Booking$
+12:16:03.688 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/karateTest.feature:27
+And header Cookie = "token=" + token
+js failed:
+>>>>
+01: "token=" + token
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/karateTest.feature:27
+12:16:05.096 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/karateTest.feature
+12:22:22.615 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677518542613
+12:22:22.649 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+12:22:23.853 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/createBooking.feature:7
+When def body = read ('createBooking.json')
+js failed:
+>>>>
+01: read ('createBooking.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\david\Desktop\RetoTecnicoApiTestTEvolvers\src\test\java\restfulBookerApi\createBooking.json (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/createBooking.feature:7
+12:22:25.094 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/createBooking.feature
+12:22:48.734 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677518568730
+12:22:48.793 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+12:22:50.244 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/createBooking.feature:7
+When def body = read (/jsons/'createBooking.json')
+js failed:
+>>>>
+01: read (/jsons/'createBooking.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:14 Expected , but found createBooking.json
+read (/jsons/'createBooking.json')
+              ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2143)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2062)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1251)
+
+src/test/java/restfulBookerApi/createBooking.feature:7
+12:22:51.384 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/createBooking.feature
+12:22:57.879 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677518577875
+12:22:57.941 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Create Booking$
+12:23:00.314 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+12:23:01.146 [main] DEBUG com.intuit.karate - response time in milliseconds: 821
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 199
+1 < Etag: W/"c7-qq2RtlA0dVqn2cRGKPaFFIW6pbw"
+1 < Date: Mon, 27 Feb 2023 17:23:02 GMT
+1 < Via: 1.1 vegur
+{"bookingid":3321,"booking":{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+12:23:01.170 [main] INFO  com.intuit.karate - [print] 3321 
+12:23:01.887 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/createBooking.feature
+12:25:32.628 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677518732624
+12:25:32.669 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:25:34.165 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url 'https://restful-booker.herokuapp.com/booking/' + id
+js failed:
+>>>>
+01: 'https://restful-booker.herokuapp.com/booking/' + id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:25:35.350 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+12:26:12.633 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677518772629
+12:26:12.668 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:26:13.875 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url 'https://restful-booker.herokuapp.com/booking/' + id
+js failed:
+>>>>
+01: 'https://restful-booker.herokuapp.com/booking/' + id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:26:15.032 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+12:27:37.759 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677518857756
+12:27:37.797 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:27:39.326 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url "https://restful-booker.herokuapp.com/booking/" + id
+js failed:
+>>>>
+01: "https://restful-booker.herokuapp.com/booking/" + id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:27:40.446 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+12:28:24.282 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677518904279
+12:28:24.319 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^Create Booking$
+12:28:27.105 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+12:28:27.885 [main] DEBUG com.intuit.karate - response time in milliseconds: 775
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 199
+1 < Etag: W/"c7-dFFAooUlTRpS8VHpJYdxwQL2fSo"
+1 < Date: Mon, 27 Feb 2023 17:28:28 GMT
+1 < Via: 1.1 vegur
+{"bookingid":9987,"booking":{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+12:28:27.905 [main] INFO  com.intuit.karate - [print] 9987 
+12:28:28.698 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/createBooking.feature
+12:28:36.142 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677518916139
+12:28:36.199 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:28:37.767 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url "https://restful-booker.herokuapp.com/booking/" + id
+js failed:
+>>>>
+01: "https://restful-booker.herokuapp.com/booking/" + id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:28:39.413 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+12:31:07.739 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677519067736
+12:31:07.791 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5 - ^Obtener token de acceso$
+12:31:09.867 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+12:31:10.609 [main] DEBUG com.intuit.karate - response time in milliseconds: 737
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 27
+1 < Etag: W/"1b-H7K/VJbNFEgih0XmerLCjeN/UFg"
+1 < Date: Mon, 27 Feb 2023 17:31:11 GMT
+1 < Via: 1.1 vegur
+{"token":"e7d2765b10c1ad6"}
+
+12:31:10.708 [main] INFO  com.intuit.karate - [print] e7d2765b10c1ad6 
+12:31:11.434 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/token.feature
+12:33:36.190 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677519216186
+12:33:36.247 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 22 - ^Update Booking$
+12:33:38.093 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/updateBooking.feature:25
+Given url 'https://restful-booker.herokuapp.com/booking/' + id
+js failed:
+>>>>
+01: 'https://restful-booker.herokuapp.com/booking/' + id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/updateBooking.feature:25
+12:33:39.543 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/updateBooking.feature
+12:36:11.724 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677519371721
+12:36:11.779 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^Create Booking$
+12:36:14.514 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+12:36:15.353 [main] DEBUG com.intuit.karate - response time in milliseconds: 834
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 199
+1 < Etag: W/"c7-a455Uq8ADjPgSoQLGckDv0/ztYg"
+1 < Date: Mon, 27 Feb 2023 17:36:16 GMT
+1 < Via: 1.1 vegur
+{"bookingid":6079,"booking":{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+12:36:15.377 [main] INFO  com.intuit.karate - [print] 6079 
+12:36:16.152 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/createBooking.feature
+12:37:50.334 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677519470331
+12:37:50.384 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:37:51.821 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url "https://restful-booker.herokuapp.com/booking/" + id
+js failed:
+>>>>
+01: "https://restful-booker.herokuapp.com/booking/" + id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:37:53.237 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+12:38:11.342 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677519491339
+12:38:11.406 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:38:13.007 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url "https://restful-booker.herokuapp.com/booking/" + id
+js failed:
+>>>>
+01: "https://restful-booker.herokuapp.com/booking/" + id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:38:14.187 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+12:38:39.000 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677519518996
+12:38:39.060 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:38:40.885 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url 'https://restful-booker.herokuapp.com/booking/' + id
+js failed:
+>>>>
+01: 'https://restful-booker.herokuapp.com/booking/' + id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:38:42.353 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+12:43:15.165 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677519795161
+12:43:15.216 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:43:17.047 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+* def id = userId..id
+js failed:
+>>>>
+01: userId..id
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:7 Expected ident but found .
+userId..id
+       ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2143)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2062)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1251)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:43:23.623 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677519803621
+12:43:23.681 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:43:25.966 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/null
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:43:26.978 [main] DEBUG com.intuit.karate - response time in milliseconds: 1006
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 9
+1 < Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+1 < Date: Mon, 27 Feb 2023 17:43:28 GMT
+1 < Via: 1.1 vegur
+Not Found
+
+12:43:26.984 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:9
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1006, url: https://restful-booker.herokuapp.com/booking/null, response: 
+Not Found
+src/test/java/restfulBookerApi/getBooking.feature:9
+12:43:27.893 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+12:44:54.090 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677519894088
+12:44:54.121 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:44:55.280 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+* def id1 = id
+js failed:
+>>>>
+01: id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:44:56.332 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+12:45:46.723 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677519946719
+12:45:46.762 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Booking$
+12:45:48.158 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/updateBooking.feature:6
+Given url 'https://restful-booker.herokuapp.com/booking/' + id
+js failed:
+>>>>
+01: 'https://restful-booker.herokuapp.com/booking/' + id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/updateBooking.feature:6
+12:45:49.738 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/updateBooking.feature
+12:46:34.790 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677519994788
+12:46:34.831 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Booking$
+12:46:36.364 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/updateBooking.feature:9
+And header Cookie = "token=" + token
+js failed:
+>>>>
+01: "token=" + token
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/updateBooking.feature:9
+12:46:37.893 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/updateBooking.feature
+12:52:08.549 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677520328546
+12:52:08.579 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:52:09.742 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url 'https://restful-booker.herokuapp.com/booking/' + id
+js failed:
+>>>>
+01: 'https://restful-booker.herokuapp.com/booking/' + id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:52:10.799 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+12:54:15.352 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677520455349
+12:54:15.400 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:54:16.675 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url 'https://restful-booker.herokuapp.com/booking/' + Id
+js failed:
+>>>>
+01: 'https://restful-booker.herokuapp.com/booking/' + Id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:54:17.843 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+12:56:23.967 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677520583964
+12:56:24.019 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^Create Booking$
+12:56:26.918 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+12:56:27.738 [main] DEBUG com.intuit.karate - response time in milliseconds: 815
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 199
+1 < Etag: W/"c7-EwuWrOzsCJr9KHH9jWydvtnCPYc"
+1 < Date: Mon, 27 Feb 2023 17:56:28 GMT
+1 < Via: 1.1 vegur
+{"bookingid":7276,"booking":{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+12:56:27.760 [main] INFO  com.intuit.karate - [print] 7276 
+12:56:28.572 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/createBooking.feature
+12:56:57.376 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677520617374
+12:56:57.411 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+12:56:58.582 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url 'https://restful-booker.herokuapp.com/booking/' + Id
+js failed:
+>>>>
+01: 'https://restful-booker.herokuapp.com/booking/' + Id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:56:59.655 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+12:57:11.208 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677520631206
+12:57:12.689 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url 'https://restful-booker.herokuapp.com/booking/' + Id
+js failed:
+>>>>
+01: 'https://restful-booker.herokuapp.com/booking/' + Id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+12:57:14.191 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:00:57.769 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677520857766
+13:00:57.824 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11 - ^Get Booking$
+13:01:00.345 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/Id
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:01:01.365 [main] DEBUG com.intuit.karate - response time in milliseconds: 1014
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 9
+1 < Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+1 < Date: Mon, 27 Feb 2023 18:01:02 GMT
+1 < Via: 1.1 vegur
+Not Found
+
+13:01:01.368 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:8
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1014, url: https://restful-booker.herokuapp.com/booking/Id, response: 
+Not Found
+src/test/java/restfulBookerApi/getBooking.feature:8
+13:01:02.266 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:01:50.984 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677520910981
+13:01:51.025 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^Create Booking$
+13:01:53.647 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+13:01:54.573 [main] DEBUG com.intuit.karate - response time in milliseconds: 921
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 200
+1 < Etag: W/"c8-jgbMLKyz2x8VHX7w+BVprow2Xi0"
+1 < Date: Mon, 27 Feb 2023 18:01:55 GMT
+1 < Via: 1.1 vegur
+{"bookingid":14145,"booking":{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+13:01:54.594 [main] INFO  com.intuit.karate - [print] 14145 
+13:01:55.475 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/createBooking.feature
+13:02:13.922 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677520933919
+13:02:13.960 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11 - ^Get Booking$
+13:02:15.883 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/14145
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:02:16.769 [main] DEBUG com.intuit.karate - response time in milliseconds: 880
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 9
+1 < Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+1 < Date: Mon, 27 Feb 2023 18:02:17 GMT
+1 < Via: 1.1 vegur
+Not Found
+
+13:02:16.771 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:8
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 880, url: https://restful-booker.herokuapp.com/booking/14145, response: 
+Not Found
+src/test/java/restfulBookerApi/getBooking.feature:8
+13:02:17.578 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:03:35.100 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521015098
+13:03:35.141 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11 - ^Get Booking$
+13:03:38.106 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1259
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:03:38.917 [main] DEBUG com.intuit.karate - response time in milliseconds: 807
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 171
+1 < Etag: W/"ab-8xRU6aup0MG7OJV3u1+tTVeDd1Y"
+1 < Date: Mon, 27 Feb 2023 18:03:39 GMT
+1 < Via: 1.1 vegur
+{"firstname":"Jeison","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+13:03:39.907 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:04:11.047 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521051044
+13:04:11.090 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11 - ^Get Booking$
+13:04:13.657 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1259
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:14.614 [main] DEBUG com.intuit.karate - response time in milliseconds: 949
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 171
+1 < Etag: W/"ab-8xRU6aup0MG7OJV3u1+tTVeDd1Y"
+1 < Date: Mon, 27 Feb 2023 18:04:15 GMT
+1 < Via: 1.1 vegur
+{"firstname":"Jeison","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+13:04:15.488 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:05:22.502 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521122499
+13:05:22.543 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11 - ^Get Booking$
+13:05:24.960 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1259
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:05:25.961 [main] DEBUG com.intuit.karate - response time in milliseconds: 996
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 171
+1 < Etag: W/"ab-8xRU6aup0MG7OJV3u1+tTVeDd1Y"
+1 < Date: Mon, 27 Feb 2023 18:05:27 GMT
+1 < Via: 1.1 vegur
+{"firstname":"Jeison","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+13:05:26.820 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:05:43.259 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521143257
+13:05:43.293 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11 - ^Get Booking$
+13:05:45.305 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/0
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:05:46.148 [main] DEBUG com.intuit.karate - response time in milliseconds: 833
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 9
+1 < Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+1 < Date: Mon, 27 Feb 2023 18:05:47 GMT
+1 < Via: 1.1 vegur
+Not Found
+
+13:05:46.152 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:8
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 833, url: https://restful-booker.herokuapp.com/booking/0, response: 
+Not Found
+src/test/java/restfulBookerApi/getBooking.feature:8
+13:05:46.858 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:06:03.184 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521163180
+13:06:03.243 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^Create Booking$
+13:06:06.381 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+13:06:07.191 [main] DEBUG com.intuit.karate - response time in milliseconds: 807
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 199
+1 < Etag: W/"c7-AtvjWZpPLZkgfGUg/TQRl38i8j0"
+1 < Date: Mon, 27 Feb 2023 18:06:08 GMT
+1 < Via: 1.1 vegur
+{"bookingid":5123,"booking":{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+13:06:07.208 [main] INFO  com.intuit.karate - [print] 5123 
+13:06:08.136 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/createBooking.feature
+13:06:24.561 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521184557
+13:06:24.606 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11 - ^Get Booking$
+13:06:26.539 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1259
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:06:27.441 [main] DEBUG com.intuit.karate - response time in milliseconds: 896
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 171
+1 < Etag: W/"ab-8xRU6aup0MG7OJV3u1+tTVeDd1Y"
+1 < Date: Mon, 27 Feb 2023 18:06:28 GMT
+1 < Via: 1.1 vegur
+{"firstname":"Jeison","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+13:06:28.175 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:07:05.023 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521225019
+13:07:05.067 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+13:07:06.561 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url 'https://restful-booker.herokuapp.com/booking/' + Id
+js failed:
+>>>>
+01: 'https://restful-booker.herokuapp.com/booking/' + Id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+13:07:07.981 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:12:05.128 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521525126
+13:12:05.156 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+13:12:06.284 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url "https://restful-booker.herokuapp.com/booking/" + Id
+js failed:
+>>>>
+01: "https://restful-booker.herokuapp.com/booking/" + Id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+13:12:07.895 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:13:13.382 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521593379
+13:13:13.423 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+13:13:14.924 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url 'https://restful-booker.herokuapp.com/booking/' + Id
+js failed:
+>>>>
+01: 'https://restful-booker.herokuapp.com/booking/' + Id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+13:13:16.177 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:13:29.115 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521609112
+13:13:29.147 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+13:13:30.312 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url "https://restful-booker.herokuapp.com/booking/" + Id
+js failed:
+>>>>
+01: "https://restful-booker.herokuapp.com/booking/" + Id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+13:13:31.260 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:13:57.587 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521637584
+13:13:57.636 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+13:13:59.646 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/getBooking.feature:5
+Given url 'https://restful-booker.herokuapp.com/booking/' + Id
+js failed:
+>>>>
+01: 'https://restful-booker.herokuapp.com/booking/' + Id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/restfulBookerApi/getBooking.feature:5
+13:14:01.691 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:15:59.189 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521759186
+13:15:59.231 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Get Booking$
+13:16:00.824 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/restfulBookerApi/createBooking.feature - call by tag at line 4: getId
+13:16:02.108 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+13:16:02.986 [main] DEBUG com.intuit.karate - response time in milliseconds: 874
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 199
+1 < Etag: W/"c7-WC03Fu3025+fn8cccgTF4QRLyDk"
+1 < Date: Mon, 27 Feb 2023 18:16:04 GMT
+1 < Via: 1.1 vegur
+{"bookingid":5129,"booking":{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+13:16:03.010 [main] INFO  com.intuit.karate - [print] 5129 
+13:16:03.030 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/5129
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:16:03.375 [main] DEBUG com.intuit.karate - response time in milliseconds: 345
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 170
+1 < Etag: W/"aa-rAvKVQyakYCZGjAMfN5IGvJuHGk"
+1 < Date: Mon, 27 Feb 2023 18:16:04 GMT
+1 < Via: 1.1 vegur
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+13:16:04.315 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/getBooking.feature
+13:17:01.297 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521821293
+13:17:01.345 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Booking$
+13:17:02.858 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/restfulBookerApi/token.feature - call by tag at line 5: getToken
+13:17:04.037 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+13:17:04.742 [main] DEBUG com.intuit.karate - response time in milliseconds: 701
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 27
+1 < Etag: W/"1b-lUVXmw7MvlvDgWgSbYefztQXBKg"
+1 < Date: Mon, 27 Feb 2023 18:17:05 GMT
+1 < Via: 1.1 vegur
+{"token":"c9d143582153f6e"}
+
+13:17:04.792 [main] INFO  com.intuit.karate - [print] c9d143582153f6e 
+13:17:04.812 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/6918
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Cookie: token=c9d143582153f6e
+1 > Content-Length: 168
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"David","lastname":"Guzman","totalprice":1432,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-13"},"additionalneeds":"Lunch"}
+
+13:17:05.191 [main] DEBUG com.intuit.karate - response time in milliseconds: 379
+1 < 405
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 18
+1 < Etag: W/"12-UGJMK66P4abaBlq0vKHJaCKuGCA"
+1 < Date: Mon, 27 Feb 2023 18:17:06 GMT
+1 < Via: 1.1 vegur
+Method Not Allowed
+
+13:17:05.194 [main] ERROR com.intuit.karate - src/test/java/restfulBookerApi/updateBooking.feature:13
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 379, url: https://restful-booker.herokuapp.com/booking/6918, response: 
+Method Not Allowed
+src/test/java/restfulBookerApi/updateBooking.feature:13
+13:17:06.295 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/updateBooking.feature
+13:18:03.426 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677521883423
+13:18:03.470 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Booking$
+13:18:04.975 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/restfulBookerApi/createBooking.feature - call by tag at line 4: getId
+13:18:06.188 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+13:18:06.929 [main] DEBUG com.intuit.karate - response time in milliseconds: 737
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 199
+1 < Etag: W/"c7-rc6kLqF+dyeuPki9S8IVcc+Ovuo"
+1 < Date: Mon, 27 Feb 2023 18:18:08 GMT
+1 < Via: 1.1 vegur
+{"bookingid":7702,"booking":{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+13:18:06.951 [main] INFO  com.intuit.karate - [print] 7702 
+13:18:06.958 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/restfulBookerApi/token.feature - call by tag at line 5: getToken
+13:18:06.968 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+13:18:07.361 [main] DEBUG com.intuit.karate - response time in milliseconds: 393
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 27
+1 < Etag: W/"1b-eoosVb3Ks3QtNE0iVLyukVfcWcU"
+1 < Date: Mon, 27 Feb 2023 18:18:08 GMT
+1 < Via: 1.1 vegur
+{"token":"114a59b67cf5a6f"}
+
+13:18:07.393 [main] INFO  com.intuit.karate - [print] 114a59b67cf5a6f 
+13:18:07.412 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'body' with new value: read('/jsons/updateBooking.json')
+13:18:07.416 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/7702
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Cookie: token=114a59b67cf5a6f
+1 > Content-Length: 168
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"David","lastname":"Guzman","totalprice":1432,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-13"},"additionalneeds":"Lunch"}
+
+13:18:07.759 [main] DEBUG com.intuit.karate - response time in milliseconds: 343
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 168
+1 < Etag: W/"a8-RMu4M1iDOmvhZwXtvfpXyuAA6sw"
+1 < Date: Mon, 27 Feb 2023 18:18:08 GMT
+1 < Via: 1.1 vegur
+{"firstname":"David","lastname":"Guzman","totalprice":1432,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-13"},"additionalneeds":"Lunch"}
+
+13:18:08.712 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/updateBooking.feature
+13:20:48.339 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677522048335
+13:20:48.395 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^Create Booking$
+13:20:51.386 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+13:20:52.142 [main] DEBUG com.intuit.karate - response time in milliseconds: 753
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < Etag: W/"c6-dhFmAwL7UR1H2NY3d6OBpsnmVog"
+1 < Date: Mon, 27 Feb 2023 18:20:53 GMT
+1 < Via: 1.1 vegur
+{"bookingid":575,"booking":{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+13:20:52.160 [main] INFO  com.intuit.karate - [print] 575 
+13:20:53.021 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/createBooking.feature
+13:21:12.402 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677522072397
+13:21:12.453 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^Create Booking$
+13:21:16.576 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+13:21:18.049 [main] DEBUG com.intuit.karate - response time in milliseconds: 1468
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 199
+1 < Etag: W/"c7-S/s/QSFvT0WpTlYqspjNj9AISm8"
+1 < Date: Mon, 27 Feb 2023 18:21:18 GMT
+1 < Via: 1.1 vegur
+{"bookingid":1136,"booking":{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+13:21:18.093 [main] INFO  com.intuit.karate - [print] 1136 
+13:21:19.560 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/createBooking.feature
+13:21:32.743 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677522092740
+13:21:32.795 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5 - ^Obtener token de acceso$
+13:21:36.427 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+13:21:38.113 [main] DEBUG com.intuit.karate - response time in milliseconds: 1678
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 27
+1 < Etag: W/"1b-sZfBx50N/jxDgBCPUQOU/1DlX/M"
+1 < Date: Mon, 27 Feb 2023 18:21:39 GMT
+1 < Via: 1.1 vegur
+{"token":"e8da5b678dc5f74"}
+
+13:21:38.369 [main] INFO  com.intuit.karate - [print] e8da5b678dc5f74 
+13:21:39.654 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/token.feature
+13:21:51.824 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677522111821
+13:21:51.878 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Booking$
+13:21:54.181 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/restfulBookerApi/createBooking.feature - call by tag at line 4: getId
+13:21:56.370 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+13:21:57.655 [main] DEBUG com.intuit.karate - response time in milliseconds: 1280
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 199
+1 < Etag: W/"c7-Ycg0ykt85BCoADJvlk/Po0OZPro"
+1 < Date: Mon, 27 Feb 2023 18:21:58 GMT
+1 < Via: 1.1 vegur
+{"bookingid":1988,"booking":{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+13:21:57.698 [main] INFO  com.intuit.karate - [print] 1988 
+13:21:57.718 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/restfulBookerApi/token.feature - call by tag at line 5: getToken
+13:21:57.740 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+13:21:58.981 [main] DEBUG com.intuit.karate - response time in milliseconds: 1241
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 27
+1 < Etag: W/"1b-iHqn3LL1wwJ8Y+y4bwBokAlFm6g"
+1 < Date: Mon, 27 Feb 2023 18:21:59 GMT
+1 < Via: 1.1 vegur
+{"token":"5dd2a5eab576027"}
+
+13:21:59.021 [main] INFO  com.intuit.karate - [print] 5dd2a5eab576027 
+13:21:59.061 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'body' with new value: read('/jsons/updateBooking.json')
+13:21:59.070 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/1988
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Cookie: token=5dd2a5eab576027
+1 > Content-Length: 168
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"David","lastname":"Guzman","totalprice":1432,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-13"},"additionalneeds":"Lunch"}
+
+13:21:59.828 [main] DEBUG com.intuit.karate - response time in milliseconds: 758
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 168
+1 < Etag: W/"a8-RMu4M1iDOmvhZwXtvfpXyuAA6sw"
+1 < Date: Mon, 27 Feb 2023 18:22:00 GMT
+1 < Via: 1.1 vegur
+{"firstname":"David","lastname":"Guzman","totalprice":1432,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-13"},"additionalneeds":"Lunch"}
+
+13:22:01.581 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/updateBooking.feature
+02:42:59.110 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677656579106
+02:42:59.157 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Booking$
+02:43:01.118 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/restfulBookerApi/createBooking.feature - call by tag at line 4: getId
+02:43:02.882 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/booking
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 170
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}
+
+02:43:05.025 [main] DEBUG com.intuit.karate - response time in milliseconds: 2136
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 200
+1 < Etag: W/"c8-HEAiSj6EG7KZU/Thx8Aglv0kqIg"
+1 < Date: Wed, 01 Mar 2023 07:43:03 GMT
+1 < Via: 1.1 vegur
+{"bookingid":11397,"booking":{"firstname":"Jason","lastname":"Gomez","totalprice":123,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-01"},"additionalneeds":"Breakfast"}}
+
+02:43:05.071 [main] INFO  com.intuit.karate - [print] 11397 
+02:43:05.090 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/restfulBookerApi/token.feature - call by tag at line 5: getToken
+02:43:05.107 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > 'Content-Type': application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+02:43:06.151 [main] DEBUG com.intuit.karate - response time in milliseconds: 1044
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 27
+1 < Etag: W/"1b-zgUwU5jpV2ZacvRn9bGryofwAXU"
+1 < Date: Wed, 01 Mar 2023 07:43:04 GMT
+1 < Via: 1.1 vegur
+{"token":"2a7ede5c3722aac"}
+
+02:43:06.194 [main] INFO  com.intuit.karate - [print] 2a7ede5c3722aac 
+02:43:06.233 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'body' with new value: read('/jsons/updateBooking.json')
+02:43:06.240 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/11397
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Cookie: token=2a7ede5c3722aac
+1 > Content-Length: 168
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_361)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"David","lastname":"Guzman","totalprice":1432,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-13"},"additionalneeds":"Lunch"}
+
+02:43:06.904 [main] DEBUG com.intuit.karate - response time in milliseconds: 664
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 168
+1 < Etag: W/"a8-RMu4M1iDOmvhZwXtvfpXyuAA6sw"
+1 < Date: Wed, 01 Mar 2023 07:43:05 GMT
+1 < Via: 1.1 vegur
+{"firstname":"David","lastname":"Guzman","totalprice":1432,"depositpaid":true,"bookingdates":{"checkin":"2023-02-26","checkout":"2023-03-13"},"additionalneeds":"Lunch"}
+
+02:43:08.809 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/restfulBookerApi/updateBooking.feature

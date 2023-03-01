@@ -1,0 +1,12 @@
+utils\constantes\ConstantManage.class
+tasks\BuyProducts.class
+userinterfaces\monitor.class
+userinterfaces\Home.class
+utils\drivers\MyChromeDriver.class
+tasks\CompareValues.class
+userinterfaces\cart.class
+userinterfaces\laptop.class
+questions\Values.class
+userinterfaces\order.class
+userinterfaces\phone.class
+tasks\PlaceOrder.class
